@@ -285,6 +285,21 @@ img {
 	transition: transform .4s;
 }
 
+.button:hover span {
+	transform: translateX(.15rem) rotate(-30deg);
+}
+
+.button__link {
+	color: var(--white-color);
+	font-weight: var(--font-bold);
+	text-decoration: underline;
+	transition: color .4s;
+}
+
+.button__link:hover {
+	color: var(--first-color);
+}
+
 /*=============== NEWS ===============*/
 
 
