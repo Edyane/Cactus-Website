@@ -80,3 +80,8 @@ const sr = ScrollReveal({
 	duration: "2500",
 	delay: "300",
 });
+
+sr.reveal(`.home__img, .new__data, .care__img, .contact__content,.shop__container, .footer`)
+sr.reveal(`.home__data, .care__list, .contact__img`,{delay:500})
+sr.reveal(`.new__card`,{delay:500, interval:100})
+sr.reveal(`.new__card`,{interval:100})
