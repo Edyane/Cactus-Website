@@ -546,7 +546,25 @@ img {
 }
 
 /*=============== SCROLL UP ===============*/
+.scrollup {
+	position: fixed;
+	right: 1rem;
+	bottom: -50%;
+	background-color: var(--container-color);
+	color: var(--title-color);
+	box-shadow: 0 12px 24px hsla(228, 48%, 4%, .5);
+	display: inline-flex;
+	padding: 6px;
+	font-size: 1.25rem;
+	z-index: var(--z-tooltip);
+	transition: bottom .4s, transform .4s;
+	border-radius: 4px;
+}
 
+.scrollup:hover {
+	transform: translateY(-.5rem);
+	color: var(--first-color);
+}
 
 /* Show Scroll Up */
 
