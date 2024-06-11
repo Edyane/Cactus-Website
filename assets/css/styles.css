@@ -561,6 +561,11 @@ img {
 	border-radius: 4px;
 }
 
+.scrollup:hover {
+	transform: translateY(-.5rem);
+	color: var(--first-color);
+}
+
 /* Show Scroll Up */
 
 
