@@ -567,6 +567,9 @@ img {
 }
 
 /* Show Scroll Up */
+.show-scroll {
+	bottom: 3rem;
+}
 
 
 /*=============== BREAKPOINTS ===============*/
