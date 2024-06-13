@@ -642,3 +642,18 @@ img {
 }
 
 /* For large devices */
+@media screen and (min-width:1150px) {
+	.container {
+		margin-inline: auto;
+
+	}
+
+	.section {
+		padding-block: 7rem 2rem;
+
+	}
+
+	.section__title {
+		margin-bottom: 1.5rem;
+	}
+}
