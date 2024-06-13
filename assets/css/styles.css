@@ -571,7 +571,6 @@ img {
 	bottom: 3rem;
 }
 
-
 /*=============== BREAKPOINTS ===============*/
 /* For small devices */
 @media screen and (max-width:320px) {
@@ -599,6 +598,22 @@ img {
 }
 
 /* For medium devices */
+@media screen and (min-width: 576px) {
+	.home__container,
+	.new__container,
+	.care__container {
+		grid-template-columns: 400px;
+		justify-content: center;
+	}
 
+	.shop__container {
+		grid-template-columns: repeat(2, 160px);
+		justify-content: center;
+	}
+
+	.footer__content {
+		grid-template-columns: repeat(3, max-content);
+	}
+}
 
 /* For large devices */
