@@ -567,13 +567,78 @@ img {
 }
 
 /* Show Scroll Up */
-
+.show-scroll {
+	bottom: 3rem;
+}
 
 /*=============== BREAKPOINTS ===============*/
 /* For small devices */
+@media screen and (max-width:320px) {
+	.container {
+		margin-inline: 1rem;
+	}
 
+	.home__title {
+		font-size: 2rem;
+	}
+
+	.home__buttons {
+		flex-direction: column;
+		row-gap: 1.5rem;
+	}
+
+	.shop__container {
+		grid-template-columns: 160px;
+		justify-content: center;
+	}
+
+	.footer__content {
+		grid-template-columns: max-content;
+	}
+}
 
 /* For medium devices */
+@media screen and (min-width: 576px) {
 
+	.home__container,
+	.new__container,
+	.care__container {
+		grid-template-columns: 400px;
+		justify-content: center;
+	}
+
+	.shop__container {
+		grid-template-columns: repeat(2, 160px);
+		justify-content: center;
+	}
+
+	.footer__content {
+		grid-template-columns: repeat(3, max-content);
+	}
+}
+
+@media screen and (min-width:768px) {
+	.nav__menu {
+		width: 50%;
+	}
+
+	.new__content {
+		grid-template-columns: repeat(2, 1fr);
+		column-gap: 4rem;
+	}
+
+	.new__card:nth-child(even) {
+		transform: translateY(10rem);
+	}
+
+	.shop__container {
+		grid-template-columns: repeat(3, 160px);
+	}
+
+	.footer__container {
+		grid-template-columns: repeat(2, max-content);
+		justify-content: space-between;
+	}
+}
 
 /* For large devices */
