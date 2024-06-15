@@ -684,4 +684,28 @@ img {
 		font-size: 1.5rem;
 		column-gap: 1rem;
 	}
+
+	.home__container {
+		grid-template-columns: 480px 535px;
+		align-items: center;
+		column-gap: 4rem;
+		padding-top: 4rem;
+	}
+
+	.home__img {
+		width: 480px;
+	}
+
+	.home__data {
+		text-align: initial;
+	}
+
+	.home__description {
+		margin-bottom: 4.5rem;
+	}
+
+	.home__buttons {
+		justify-content: initial;
+		column-gap: 1.5rem;
+	}
 }
