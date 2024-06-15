@@ -708,4 +708,23 @@ img {
 		justify-content: initial;
 		column-gap: 1.5rem;
 	}
+
+	.new__container {
+		grid-template-columns: 412px 490px;
+		align-items: center;
+		column-gap: 7.5rem;
+	}
+
+	.new__data,
+	.new__data .section__title {
+		text-align: initial;
+	}
+
+	.new__content {
+		row-gap: 8.5rem;
+	}
+
+	.new__title {
+		font-size: var(--h3-font-size);
+	}
 }
