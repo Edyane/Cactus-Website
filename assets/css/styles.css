@@ -727,4 +727,34 @@ img {
 	.new__title {
 		font-size: var(--h3-font-size);
 	}
+
+	.shop__container {
+		grid-template-columns: repeat(3, 240px);
+		gap: 8.5rem 4rem;
+		padding-top: 7.5rem;
+	}
+
+	.shop__card {
+		padding: 10.5rem 1.5rem;
+		border-radius: 1.5rem;
+	}
+
+	.shop__img {
+		width: 210px;
+	}
+
+	.shop__tilte {
+		font-size: var(--h3-font-size);
+
+	}
+
+	.shop__price {
+		font-size: var(--h2-font-size);
+	}
+
+	.shop__button {
+		right: 1.5rem;
+		bottom: 2rem;
+		font-size: 1.5rem;
+	}
 }
