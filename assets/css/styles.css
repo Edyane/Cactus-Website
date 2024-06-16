@@ -757,4 +757,19 @@ img {
 		bottom: 2rem;
 		font-size: 1.5rem;
 	}
+
+	.care__container {
+		grid-template-columns: 480px 385px;
+		align-items: center;
+		column-gap: 8rem;
+		padding-top: 3rem;
+	}
+
+	.care__img {
+		width: 480px;
+	}
+
+	.care__list {
+		row-gap: 1.5rem;
+	}
 }
