@@ -794,4 +794,25 @@ img {
 	.contact__img {
 		width: 480px;
 	}
+
+	.footer__logo {
+		margin-bottom: 1.5rem;
+	}
+
+	.footer__logo i {
+		font-size: 2rem;
+	}
+
+	.footer__content {
+		column-gap: 5.5rem;
+	}
+
+	.footer__title {
+		font-size: var(--h3-font-size);
+		margin-bottom: 1.5rem;
+	}
+
+	.footer__social {
+		column-gap: 1rem;
+	}
 }
