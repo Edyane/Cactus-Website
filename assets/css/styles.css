@@ -772,4 +772,26 @@ img {
 	.care__list {
 		row-gap: 1.5rem;
 	}
+
+	.contact__container {
+		grid-template-columns: 280px 480px;
+		justify-content: center;
+		align-items: center;
+		column-gap: 8rem;
+		padding-block: 3rem;
+	}
+
+	.contact__content {
+		order: -1;
+		text-align: initial;
+		row-gap: 2.5rem;
+	}
+
+	.contact__social {
+		justify-content: initial;
+	}
+
+	.contact__img {
+		width: 480px;
+	}
 }
