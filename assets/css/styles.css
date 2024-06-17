@@ -772,4 +772,47 @@ img {
 	.care__list {
 		row-gap: 1.5rem;
 	}
+
+	.contact__container {
+		grid-template-columns: 280px 480px;
+		justify-content: center;
+		align-items: center;
+		column-gap: 8rem;
+		padding-block: 3rem;
+	}
+
+	.contact__content {
+		order: -1;
+		text-align: initial;
+		row-gap: 2.5rem;
+	}
+
+	.contact__social {
+		justify-content: initial;
+	}
+
+	.contact__img {
+		width: 480px;
+	}
+
+	.footer__logo {
+		margin-bottom: 1.5rem;
+	}
+
+	.footer__logo i {
+		font-size: 2rem;
+	}
+
+	.footer__content {
+		column-gap: 5.5rem;
+	}
+
+	.footer__title {
+		font-size: var(--h3-font-size);
+		margin-bottom: 1.5rem;
+	}
+
+	.footer__social {
+		column-gap: 1rem;
+	}
 }
